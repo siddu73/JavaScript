@@ -1,0 +1,12 @@
+It's important note that, Arrow Functions are anonymouse. Which means that they are not named.
+
+This anonymity creates some issue:
+--> Harder to Debug
+--> No Self reference 
+
+Harder to Debug: When we get an error, not able to fine the name of the function or exact line number where it occurred.
+No Self reference: If our function needs to have a self-reference at any point (e.g recursion, event handler that needs to unbind), 
+                   it will not work.
+                   
+Main benefit: No binding of 'this'
+
